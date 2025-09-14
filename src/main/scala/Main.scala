@@ -18,14 +18,13 @@ object Main extends JFXApp3 :
   override def start(): Unit =
     stage = new JFXApp3.PrimaryStage
     var root = Group()
-    val scene = Scene(root,1000,1000)
+    val scene: Scene = new Scene(root,1000,1000)
+    scene.stylesheets.add("default.css")
     scene.fill = Color.rgb(237, 210, 135)
     stage.setTitle("Stuff Organiser")
     stage.setScene(scene)
+    TaskManager(root,scene)
     
-    MainPage(stage,root)
-   
-
     stage.show()
 
 

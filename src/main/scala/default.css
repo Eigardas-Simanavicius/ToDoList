@@ -1,0 +1,32 @@
+.button
+{
+    -fx-background-color: #edc555;
+    -fx-border-color: #121211;
+    -fx-padding: 20px;
+    -fx-border-radius: 5px;
+    -fx-background-insets: 1px;
+    
+}
+.button:hover {
+    -fx-background-color: #e8bc23 !important;
+    -fx-border-color: #121211;
+    -fx-padding: 20px;
+    -fx-border-radius: 5px;
+   
+}
+
+.task {
+    -fx-background-color: #edc555;
+    -fx-border-color: #121211;
+    -fx-padding: 20px;
+   
+    
+}
+
+.task:hover{
+    -fx-background-color: #e3c326;
+    -fx-border-color: #121211;
+    -fx-padding: 20px;
+    
+}
+
