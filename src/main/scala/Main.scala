@@ -13,12 +13,15 @@ import scalafx.stage.Stage
 
 import scala.language.implicitConversions
 
+/**
+ * Main class, sets up scene root and couple of other things
+ */
 object Main extends JFXApp3 :
 
   override def start(): Unit =
     stage = new JFXApp3.PrimaryStage
     var root = Group()
-    val scene: Scene = new Scene(root,1000,1000)
+    val scene = new Scene(root,1000,1000)
     scene.stylesheets.add("default.css")
     scene.fill = Color.rgb(237, 210, 135)
     stage.setTitle("Stuff Organiser")
